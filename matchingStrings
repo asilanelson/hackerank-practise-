@@ -1,0 +1,17 @@
+#There is a collection of input strings and a collection of query strings. 
+#For each query string, determine how many times it occurs in the list of input strings. 
+#Return an array of the results
+    #example
+#strings_list = ['ab', 'ab', 'abc']
+#queries = ['ab', 'abc', 'bc']
+# ab = 2, abc = 1, bc = 0
+def matchingstrings(string_list, queries):
+    strings_list = ['ab', 'ab', 'abc']
+    queries = ['ab', 'abc', 'bc']
+    results = []
+    for i in queries:
+        if i[string_list] == i[queries]:
+            return results[]
+        
+matchingstrings()
+        
